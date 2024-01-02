@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Culinary connect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chokokutai&family=Fasthand&family=Great+Vibes&family=Kaushan+Script&family=Lora&family=Yellowtail&display=swap" rel="stylesheet">
+
+    <style>
+        *{box-sizing:border-box;
+            margin:0;}
+
+        
+ul{
+    list-style-type:none;
+    width:100%;
+    overflow:hidden;
+    background-color:#FFD95A;
+  }
+
+li{
+    float:right;
+    padding:1.7vw;
+  }
+
+li a {text-decoration:none;font-family:'Lora', serif;color:#4C3D3D;font-size:1.3vw;font-weight:bold;}
+
+li:hover{ background-color:#FFF7D4;}
+
+/*.wrap1{dispaly:flex;flex-wrap:wrap;}
+.title{flex:80%;}
+.logo{flex:20%;}*/
+
+h1{
+   padding-left:42vw;
+   padding-top:15vw;
+   font-size:7.5vw;
+}
+
+header{clear:right;
+    background-image:url("bgImg1.png");
+    background-repeat:no-repeat;
+    background-size:100% 53vw;
+    background-attachment:fixed;  
+    height:53vw; 
+  }
+  .main{
+    display:flex;
+    flex-wrap:wrap;
+    height:20vw;
+  }
+  .part1{flex:50%;display:flex;flex-wrap:wrap;background-color: #4C3D3D;}
+  
+.part2{flex:50%}
+    /*.row3{flex:50%;}
+    .row4{flex:50%;}*/
+    </style>
+  </head>
+  <body>
+    <div class="nav_bar" >
+        <ul>
+          <li style="margin-right:50px;"><a href="login.htmnl"> Login </a></li>
+        
+        </ul>
+    
+      <header>
+      
+      <div class="logo" style="float:right;">
+      <img src="logo.png" alt="spoon logo" style="height:11vw;width:14vw;margin-top:13vw;margin-right:1.5vw;">
+      </div>
+      <div class="title" style="float:right;">
+      <h1 style="font-family:'Great Vibes', cursive; color:#FFD95A;"> Culinary Connect</h1>
+      </div>
+      <h2 style="font-family:'Chokokutai', cursive;color:#FFF7D4;font-size:2vw;padding-left:60vw;">Taste The Convenience</h2>
+      </header>
+      <h2>Our Dishes</h2>
+      <div class="main">
+        <div class="part1">
+          <ul id="row1"></ul>
+          <ul id="row2"></ul>
+        </div>
+        <div class="part2"></div>
+           <ul id="row3"></ul>
+           <ul id="row4"></ul>
+      </div>
+</body>
+</html>

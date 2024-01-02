@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+#myVideo {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position:absolute;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  padding: 20px;
+  padding-top: 20vw;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+input[type=text], input[type=password] {
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 9px;
+  
+}
+label{
+  font-weight: bold;
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  button{
+    padding:20px;
+    width:2vw;
+    height:1vw;
+    background-color: crimson;
+    color:white;
+  }
+  
+  }
+  
+    </style>
+        <title>
+        </title>
+        <body>
+            <!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="C:\Users\admin\Desktop\New folder\DOSA.MP4" type="video/mp4">
+</video>
+
+<div class="content">
+  <p>WELCOME TO INDIAN RAILWAYS</p>
+</div>
+<a href="login.html">
+<button style="padding:10px 20px;
+font-family:verdana;
+
+background-color: #172031;
+color:white;">Login</button>
+</a>
+
+
+        </body>
+    </head>
+</html>
